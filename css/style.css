@@ -3,19 +3,31 @@
     margin: 0;
     padding: 0;
 }
+#container{
+    min-height: 100vh;
+    display:inline-block;
+}
 .part1{
-    height:25%;
+    height:25vh;
     background-color:orange;
+    background-image: url(images/images2/backgrounds/h_img.jpg);
 }
 .part2{
-    height:25%;
-    background-color:green;
+    height:25vh;
+    background-color:whitesmoke;
 }
 .part3{
-    height:25%;
-    background-color:orange;
+    height:25vh;
+    background-color:whitesmoke;
 }
 .part4{
-    height:25%;
+    height:25vh;
     background-color:green;
+}
+.part2{
+    display: block;
+}
+.text h2{
+    display: flex;
+    justify-content: center;
 }
