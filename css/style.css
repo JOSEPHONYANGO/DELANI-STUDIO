@@ -3,7 +3,19 @@
     margin: 0;
     padding: 0;
 }
-.col{
-    height: 100%;
-    color:orange;
+.part1{
+    height:25%;
+    background-color:orange;
+}
+.part2{
+    height:25%;
+    background-color:green;
+}
+.part3{
+    height:25%;
+    background-color:orange;
+}
+.part4{
+    height:25%;
+    background-color:green;
 }
