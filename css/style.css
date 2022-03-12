@@ -31,3 +31,8 @@
     display: flex;
     justify-content: center;
 }
+.text p{
+    display: flex;
+    justify-content: center;
+    line-height: 35px;
+}
