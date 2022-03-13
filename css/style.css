@@ -116,4 +116,11 @@ h3{
       justify-content: center;
       align-items: center;
   }
+  .para-one{
+      display: none;
+  }
+  .design{
+      display: flex;
+      
+  }
   
