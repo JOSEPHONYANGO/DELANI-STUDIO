@@ -66,13 +66,26 @@ h3{
   }
   h2{
       color:white;
-      justify-content: center;
-      align-items: center;
-      margin-top: 25px;
+      margin-top: 45px;
+      text-align: center;
   }
   .form-control{
       background-color: transparent;
   }
   .col-md{
       background-color: transparent;
+  }
+  input[type=text]{
+      width: 75%;
+      color:white;
+      background-color: transparent;
+  }
+  .social-icons{
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+  }
+  .last-text{
+      text-align: center;
+      margin-top: 50px;
   }
