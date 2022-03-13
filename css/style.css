@@ -46,6 +46,7 @@
 h3{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .part5{
@@ -54,6 +55,7 @@ h3{
 }
 .row {
     display: flex;
+    margin:75px 200px;
     
   }
   
@@ -64,7 +66,7 @@ h3{
   .row g-2{
       margin-left: 75px;
   }
-  h2{
+  h4{
       color:white;
       margin-top: 45px;
       text-align: center;
@@ -90,7 +92,10 @@ h3{
       margin-top: 50px;
   }
   .three-icons{
-      display: flex;
+      display:flex;
       justify-content: center;
+      justify-content: space-between;
+      margin: 75px 200px;
+      
       
   }
