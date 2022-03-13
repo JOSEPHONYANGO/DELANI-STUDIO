@@ -50,13 +50,29 @@ h3{
 
 .part5{
     background: url(/images/images2/c_image.jpg);
+    
 }
 .row {
     display: flex;
-    /* width:75%; */
+    
   }
   
   .column {
     flex: 18%;
     padding: 5px;
+  }
+  .row g-2{
+      margin-left: 75px;
+  }
+  h2{
+      color:white;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+  }
+  .form-control{
+      background-color: transparent;
+  }
+  .col-md{
+      background-color: transparent;
   }
