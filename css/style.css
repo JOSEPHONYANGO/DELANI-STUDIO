@@ -14,11 +14,18 @@
     height:70vh;
     width: 100%;
     /* height: auto; */
-    background-color:orange;
-    background-image: url(/images/images2/backgrounds/h_img.jpg);
+    /* background-color:orange; */
+    /* background-image: url(/images/images2/backgrounds/h_img.jpg); */
+}
+.welcome{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 350px;
+    font-size: 36px;
 }
 .part2{
-    height:25vh;
+    height:55vh;
     background-color:whitesmoke;
     display: block;
 }
@@ -96,6 +103,12 @@ h3{
       justify-content: center;
       justify-content: space-between;
       margin: 75px 200px;
-      
-      
+   
+     
   }
+  .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
