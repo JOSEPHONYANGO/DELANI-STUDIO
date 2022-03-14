@@ -60,180 +60,108 @@ body{
     height: 153px;
     margin: 5px;
 }
-
-
-
-
-#container{
-    /* min-height: 200vh; */
-    /* display:inline-block; */
-    /* height: auto; */
-    
+.A {
+    background-image: url('/images/images2/portfolio/work1.jpg');
+    background-size: cover
 }
-.part1{
-    /* height:70vh; */
+.B {
+    background-image: url('/images/images2/portfolio/work2.jpg');
+    background-size: cover
+}
+.C {
+    background-image: url('/images/images2/portfolio/work3.jpg');
+    background-size: cover
+}
+.D {
+    background-image: url('/images/images2/portfolio/work4.jpg');
+    background-size: cover
+}
+.E {
+    background-image: url('/images/images2/portfolio/work5.jpg');
+    background-size: cover
+}
+.F {
+    background-image: url('/images/images2/portfolio/work6.jpg');
+    background-size: cover
+}
+.G {
+    background-image: url('/images/images2/portfolio/work7.jpg');
+    background-size: cover
+}
+.H {
+    background-image: url('/images/images2/portfolio/work8.jpg');
+    background-size: cover
+}
+.text {
+     background-color: rgba(247, 248, 249,0.7);
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     position:relative;
+     margin-top: 20px;
+     opacity: 0;
+}
+.text>p {
+    padding-top: 67px;
+}
+#contact {
+  background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true');
+  padding: 40px 5px;
+  color: white;
+  max-width: 100vw;
+}
+.message{
+  padding: 3px 15px;
+  margin: 7px 2px;
+  width: 700px;
+  max-width: 89%;
+}
+form{
+  width: 700px;
+  max-width: 90%;
+}
+::placeholder{
+  color: rgb(204, 204, 204);
+}
+form input{
+  width:49%;
+}
+form input, form textarea{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 7px;
+}
+form textarea{
+  margin-top: 20px;
+  width: 98.8%;
+}
+footer{
+  padding-top: 40px;
+  text-align: center;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1024px){
+    .col-md-12 h1,#about h1,#services h1,#what-we-do h1 {
+      font-size: calc(3vw + 3vh + .5vmin);
+    }
+    .col-md-12 p,#about p,#services p {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+}
+@media only screen and (max-width: 1024px){
+    form input, form textarea{
     width: 100%;
-    /* height: auto; */
-    /* background-color:orange; */
-    /* background-image: url(/images/images2/backgrounds/h_img.jpg); */
-}
-#welcome{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 350px;
-    font-size: 36px;
-}
-.first-image{
-    position: relative;
-    text-align: center;
-    margin-top: 75px;
-}
-.part2{
-    /* height:55vh; */
-    background-color:whitesmoke;
-    display: block;
+    margin: 5px 0;
+  }
+  form input[type=submit]{
+    width: auto;
+    padding: 0 15%;
+  }
+
 }
 
-.text h2{
-    display: flex;
-    justify-content: center;
-}
-.text p{
-    display: flex;
-    justify-content: center;
-    line-height: 35px;
-}
 
-.part3{
-    /* height:25vh; */
-    background-color:yellowgreen;
-    
-}
-.part4{
-    background: url(/images/images2/c_image.jpg);
-    height:25vh;
-    background-color:green;
-}
-h3{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
 
-.part5{
-    background: url(/images/images2/c_image.jpg);
-    
-}
-.row {
-    display: flex;
-    margin:75px 200px;
-    
-  }
-  
-  .column {
-    flex: 18%;
-    padding: 5px;
-  }
-  .row g-2{
-      margin-left: 75px;
-  }
-  h4{
-      color:white;
-      margin-top: 45px;
-      text-align: center;
-  }
-  .form-control{
-      background-color: transparent;
-  }
-  .col-md{
-      background-color: transparent;
-  }
-  input[type=text]{
-      width: 75%;
-      color:white;
-      background-color: transparent;
-  }
-  .social-icons{
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-  }
-  .last-text{
-      text-align: center;
-      margin-top: 50px;
-  }
-  .three-icons{
-      display:flex;
-      justify-content: center;
-      justify-content: space-between;
-      margin: 75px 200px;
-   
-     
-  }
-  .logo{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .para-one{
-      display: none;
-      text-align: center;
-  }
-  .para-two{
-    display: none;
-    text-align: center;
-}
-.para-three{
-    display: none;
-    text-align: center;
-}
-  .design{
-      display: flex;
-      
-  }
-  .development{
-      display: flex;
-  }
-  .product-management{
-      display: flex;
-  }
-  .text-one{
-      font-weight: bold;
-      text-align: center;
-  }
-  .text-two{
-    font-weight: bold;
-    text-align: center;
-}
-.text-three{
-    font-weight: bold;
-    text-align: center;
-}
-    form{
-        width: 700px;
-        max-width: 90%;
-        
-      }
-      ::placeholder{
-        color: rgb(204, 204, 204);
-      }
-      form input{
-        width:49%;
-        
-       
-      }
-      form input, form textarea{
-        background: transparent;
-        border: 1px solid white;
-        color: white;
-        padding: 7px;
-      }
-      form textarea{
-        margin-top: 20px;
-        width: 98.8%;
-  }
-  .text p{
-      text-align: center;
-  }
-  
+
