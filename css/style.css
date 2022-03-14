@@ -6,7 +6,7 @@
 }
 #container{
     /* min-height: 200vh; */
-    display:inline-block;
+    /* display:inline-block; */
     /* height: auto; */
     
 }
@@ -17,7 +17,7 @@
     /* background-color:orange; */
     /* background-image: url(/images/images2/backgrounds/h_img.jpg); */
 }
-.welcome{
+#welcome{
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -118,12 +118,38 @@ h3{
   }
   .para-one{
       display: none;
+      text-align: center;
   }
+  .para-two{
+    display: none;
+    text-align: center;
+}
+.para-three{
+    display: none;
+    text-align: center;
+}
   .design{
       display: flex;
       
   }
-  
+  .development{
+      display: flex;
+  }
+  .product-management{
+      display: flex;
+  }
+  .text-one{
+      font-weight: bold;
+      text-align: center;
+  }
+  .text-two{
+    font-weight: bold;
+    text-align: center;
+}
+.text-three{
+    font-weight: bold;
+    text-align: center;
+}
     form{
         width: 700px;
         max-width: 90%;
