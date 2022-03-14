@@ -134,6 +134,7 @@ h3{
       }
       form input{
         width:49%;
+        
        
       }
       form input, form textarea{
@@ -145,5 +146,8 @@ h3{
       form textarea{
         margin-top: 20px;
         width: 98.8%;
+  }
+  .text p{
+      text-align: center;
   }
   
