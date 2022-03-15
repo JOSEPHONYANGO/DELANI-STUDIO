@@ -23,7 +23,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
-    height: 97vh;
+    /* height: 97vh; */
     overflow-x:hidden;
     overflow:hidden;
 }
@@ -119,9 +119,14 @@ col-md-13{
 }
 #contact {
   background-image: url('/images/images2/c_image.jpg');
-  padding: 40px 5px;
+  /* padding: 40px 5px; */
   color: white;
-  max-width: 100vw;
+  /* max-width: 100vw; */
+  background-size: cover;
+  /* background-position: center; */
+  height: 50vh;
+  width:100%;
+  background-repeat: no-repeat;
 }
 .message{
   padding: 3px 15px;
@@ -182,6 +187,16 @@ footer{
     width: auto;
     padding: 0 15%;
   }
+
+}
+#portfolio h3{
+    /* margin-left: -20%;
+    text-align: center;
+    /* padding: 30 */
+    /* margin-top: -25%; */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
