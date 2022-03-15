@@ -13,8 +13,8 @@
 
 body{
     text-align: center;
-    width: 100%;
-    min-width: 100vw;
+    /* width: 100%;
+    min-width: 100vw; */
     
     
 }
@@ -23,7 +23,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
-    /* height: 97vh; */
+    height: 97vh;
     overflow-x:hidden;
     overflow:hidden;
 }
@@ -119,10 +119,10 @@ col-md-13{
 }
 #contact {
   background-image: url('/images/c_image.jpg');
-  /* padding: 40px 5px; */
+  padding: 40px 5px;
   color: white;
-  /* max-width: 100vw; */
-  background-size: cover;
+  max-width: 100vw;
+  /* background-size: cover; */
   /* background-position: center; */
   height: 50vh;
   width:100%;
@@ -168,7 +168,7 @@ footer{
   margin: 0 auto;
 }
 .row{
-    display: flex;
+    /* display: flex; */
 }
 @media only screen and (max-width: 1024px){
     .col-md-12 h1,#about h1,#services h1,#what-we-do h1 {
@@ -190,13 +190,10 @@ footer{
 
 }
 #portfolio h3{
-    /* margin-left: -20%;
+    margin-left: -20%;
     text-align: center;
-    /* padding: 30 */
-    /* margin-top: -25%; */ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 30;
+    margin-top:-25%;
 
 }
 
