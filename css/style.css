@@ -19,7 +19,7 @@ body{
     
 }
 #welcome{
-    background-image: url('/images/backgrounds/h_img.jpg');
+    background-image: url('/images/backgrounds/first.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
